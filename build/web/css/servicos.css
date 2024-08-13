@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: "Bona Nova SC", serif;
+}
+
+.container-servicos {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    background-color: #d3c5b0;
+    overflow: hidden;
+}
+
+.sub-servicos {
+    margin-left: 5rem;
+    position: relative;
+    top: 0;
+}
+
+.sub-servicos h1 {
+    line-height: 1.5;
+    color: #B5651D;
+    font-size: 2.5rem;
+    font-family: "Bona Nova SC", serif;
+}
+
+.sub-servicos p {
+    line-height: 1.7;
+    margin-top: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-family: "Bona Nova SC", serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: end;
+    padding: 3rem 0.5rem;
+    margin-right: 10rem;
+}
+
+.image-container img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 0.5rem;
+    max-width: 100%;
+    height: auto;
+    max-height: 100rem;
+}
+
+.cta-servicos {
+    margin-top: 1.2rem;
+    display: inline-block;
+    padding-top: 1rem;
+}
+
+.cta-servicos a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #ee834e;
+    padding: 0.8rem 1.5rem;
+    height: 100%;
+    border-radius: 0.5rem;
+    font-family: "Bona Nova SC", serif;
+}
+
+.cta-servicos a:hover {
+    background-color: #DC143C;
+    color: black;
+}
+
+.alternar1 {
+    color: #DC143C;
+}
+
+.sites-container {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: auto auto;
+    background-image: linear-gradient(white, #D3C5B0);
+}
+
+.desenvolvimento-sites {
+    width: 100%;
+    margin: 0;
+    padding: 1rem 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.desenvolvimento-sites p {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.dev-sites {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 ;
+    margin: 0;
+    
+}
+
+.card-site {
+    margin: 1rem 1rem;
+    height: 16rem;
+    width: 24rem;
+    margin-bottom: 1rem;
+    padding: 1rem 1rem;
+    color: black;
+    background-color: #ffffff;
+    display: grid;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+.card-site .fa-computer {
+    font-size: 2rem;
+    color: #d4af37;
+}
+.card-site .fa-file-import {
+    font-size: 2rem;
+    color: #d4af37;
+}
+.card-site .fa-list-check {
+    font-size: 2rem;
+    color: #d4af37;
+}
+
+.cta-site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A0522D;
+    width: 100%;
+    height: auto;
+}
+
+.cta-site h1 {
+    position: relative;
+    color: #ffffff;
+    margin-left: 1rem;
+    font-size: 3rem;
+}
+
+.cta-site button {
+    margin: 0.5rem 4rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: #ee834e;
+    padding: 0.8rem 1.5rem;
+    height: 100%;
+    border-radius: 0.5rem;
+    font-family: "Bona Nova SC", serif;
+    border: 1px solid #b89c77;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2), -4px -4px 6px rgba(255, 255, 255, 0.3);
+    border: none; 
+    cursor: pointer; 
+    transition: all 0.2s ease-in-out;
+}
+
+.cta-site button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.cta-site button:hover {
+    background-color: #DC143C;
+    color: black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.4); 
+    transform: translateY(-2px);
+}
+
+.marketing-container {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    line-height: 1.5rem;
+    font-family: "Bona Nova SC", serif;
+    background-color: #272727;
+}
+
+.mkt-subcontainer {
+    margin: 1rem 0;
+    padding: 0;
+    
+}
+
+.mkt-subcontainer .mkt-titulo {
+    font-size: 2rem;
+    margin: 1rem 1rem;
+}
+
+.mkt-subcontainer .mkt-sub {
+    margin: 1rem 1rem;
+    font-size: 1.8rem;
+}
+
+.mkt-subcontainer p {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.mkt-subcontainer .word-mkt {
+    color: #FFE013;
+    font-weight: 600;
+}
+
+.mkt-subcontainer .cards-mkt-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.card-mkt {
+    background-color: #d3c5b0;
+    margin: 0.3rem 0.3rem;
+    padding: 0.3rem 0.3rem;
+    border-radius: 0.5rem;
+    width: calc(40% - 1.6rem);
+    height: 30%;
+    color: black;
+    
+}
+
+.mkt-subcontainer .word-mkt-red {
+    color: #FF0000;
+    font-weight: 600;
+}
+
+.card-mkt h3 {
+    margin-bottom: 1rem;
+}
+
+.card-mkt p {
+    line-height: normal;
+}
+
+.google-container {
+    margin: 1.5rem 0;
+}
+
+
+.google-container .google-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0.5rem 0.5rem;
+}
+
+.google-container .word-mkt {
+    color: #FFE013;
+    font-weight: 600;
+}
+
+.google-container h4 {
+    font-size: 1.5rem;
+}
+
+.google-cards {
+    background-color: #d3c5b0;
+    margin: 0.3rem 0.3rem;
+    padding: 0.3rem 0.3rem;
+    border-radius: 0.5rem;
+    width: 40%;
+    height: 30%;
+    color: black;
+}
+
+.google-cards h3 {
+    color: white;
+}
+
+.google-cards .word-card {
+    color: #D92027;
+    font-weight: 800;
+}
+

@@ -1,0 +1,35 @@
+.footer-container {
+    background-image: linear-gradient(#CD7F32, #6F4E37);
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-shrink: 0;
+    color: white;
+}
+
+.sub-footer {
+    margin: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 0;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open sans', sans-serif;
+}
+
+.sub-footer h2 {
+    color: #D3C5B0;
+}
+
+.sub-footer i {
+    margin: 0.4rem;
+    color: #D4AF37;
+}
+
+.redes i {
+    font-size: 2rem;
+    color: aliceblue;
+}

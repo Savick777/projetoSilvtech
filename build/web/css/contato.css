@@ -1,0 +1,87 @@
+.container-contato {
+    width: 100%;
+    height: 60vh; 
+    color: rgb(255, 255, 255);
+    background-image: url(./../assets/fale.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-contato {
+    width: 100%;
+    height: auto;
+    margin: 1rem 1rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bona Nova SC", serif;
+}
+
+.sub-contato h1 {
+    font-size: 4rem;
+    color: #d4af37;
+}
+
+.container-orcamento {
+    position: relative;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #000000;
+}
+
+.cta-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A0522D;
+    width: 100%;
+    height: 10rem;
+}
+
+.cta-contato button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+    background-color: #d3c5b0;
+    width: 7%;
+    height: 60%;
+    border-radius: 0.5rem;
+    border: 1px solid #b89c77;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2), -4px -4px 6px rgba(255, 255, 255, 0.3);
+    border: none; 
+    cursor: pointer; 
+    padding: 0; 
+    transition: all 0.2s ease-in-out;
+}
+
+.cta-contato button a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.cta-contato button:hover {
+    background-color: #c1b0a7; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.4); 
+    transform: translateY(-2px); 
+}
+
+.cta-contato button:active {
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3), inset -2px -2px 4px rgba(255, 255, 255, 0.4);
+    transform: translateY(0); 
+}
+
+.cta-contato i {
+    font-size: 3rem; 
+    color: #fff; 
+}
+
+.cta-contato h3 {
+    font-size: 3rem;
+}
