@@ -35,10 +35,10 @@
           43988088301
         </p>
         <p class="redes">
-          <a href="https://www.instagram.com/"
+          <a href="https://www.instagram.com/silvtech_inovacao/" target="_blank"
             ><i class="fa-brands fa-square-instagram"></i
           ></a>
-          <a href="https://wa.me/message/JIFOHY24FMOJL1"
+          <a href="https://wa.me/message/2ZCVCNBL3CERI1" target="_blank"
             ><i class="fa-brands fa-whatsapp"></i
           ></a>
         </p>
@@ -50,7 +50,7 @@
           Suporte 24h via e-mail. Tel. e whatsapp Seg a Sab. das 09h às 18h
         </p>
         <p class="redes">
-          <a href="https://wa.me/message/JIFOHY24FMOJL1"
+          <a href="https://wa.me/message/2ZCVCNBL3CERI1" target="_blank"
             ><i class="fa-brands fa-whatsapp"></i
           ></a>
         </p>

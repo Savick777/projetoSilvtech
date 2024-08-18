@@ -47,7 +47,7 @@
         </p>
 
         <div class="cta-servicos">
-          <a href="https://wa.me/message/2ZCVCNBL3CERI1">CONTRATAR</a>
+          <a href="https://wa.me/message/2ZCVCNBL3CERI1" target="_blank">CONTRATAR</a>
         </div>
       </div>
       <div class="image-container">
@@ -100,7 +100,7 @@
       <h1>Criar meu site profissional</h1>
       
         <button><a href="https://wa.me/message/2ZCVCNBL3CERI1"
-          >Solicitar um orçamento</a
+          target="_blank">Solicitar um orçamento</a
         ></button>
       
     </section>
@@ -205,7 +205,7 @@
         <h1>Iniciar campanha de marketing</h1>
         
           <button><a href="https://wa.me/message/2ZCVCNBL3CERI1"
-            >Solicitar um orçamento</a
+            target="_blank">Solicitar um orçamento</a
           ></button>
         
       </section>

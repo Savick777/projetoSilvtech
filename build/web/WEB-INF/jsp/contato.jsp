@@ -47,8 +47,8 @@
 
         <section class="cta-contato">
             <h3>------------------------</h3>
-            <button><a href="https://wa.me/message/2ZCVCNBL3CERI1"><i class="fa-brands fa-whatsapp"> </i></a></button>
-            <button><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></button>
+            <button><a href="https://wa.me/message/2ZCVCNBL3CERI1" target="_blank" ><i class="fa-brands fa-whatsapp"> </i></a></button>
+            <button><a href="https://www.instagram.com/silvtech_inovacao/" target="_blank" ><i class="fa-brands fa-instagram"></i></a></button>
             <h3>------------------------</h3>
           </section>
 
